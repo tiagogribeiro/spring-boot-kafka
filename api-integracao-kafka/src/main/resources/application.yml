@@ -1,0 +1,10 @@
+server: 9000
+
+---
+spring:
+  profiles: test
+
+kafka:
+  bootstrapAddress: "127.0.0.1:9092"
+  topic: "TopicA"
+  groupId: 1
